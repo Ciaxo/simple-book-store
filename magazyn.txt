@@ -1,0 +1,149 @@
+Autor: George Orwell
+Tytuł: 1984
+Cena: 30,00
+Ilość: 5
+
+Autor: J.K. Rowling
+Tytuł: Harry Potter i Kamień Filozoficzny
+Cena: 40,00
+Ilość: 3
+
+Autor: Haruki Murakami
+Tytuł: 1Q84
+Cena: 45,00
+Ilość: 2
+
+Autor: Jane Austen
+Tytuł: Duma i uprzedzenie
+Cena: 25,00
+Ilość: 6
+
+Autor: Stephen King
+Tytuł: To
+Cena: 35,00
+Ilość: 4
+
+Autor: Chimamanda Ngozi Adichie
+Tytuł: Americanah
+Cena: 28,00
+Ilość: 3
+
+Autor: Gabriel Garcia Marquez
+Tytuł: Sto lat samotności
+Cena: 38,00
+Ilość: 2
+
+Autor: Agatha Christie
+Tytuł: Zabójstwo w Orient Expressie
+Cena: 32,00
+Ilość: 4
+
+Autor: J.R.R. Tolkien
+Tytuł: Władca Pierścieni: Drużyna Pierścienia
+Cena: 50,00
+Ilość: 2
+
+Autor: Margaret Atwood
+Tytuł: Opowieść podręcznej
+Cena: 42,00
+Ilość: 3
+
+Autor: F. Scott Fitzgerald
+Tytuł: Wielki Gatsby
+Cena: 27,00
+Ilość: 5
+
+Autor: Ernest Hemingway
+Tytuł: Stary człowiek i morze
+Cena: 31,00
+Ilość: 3
+
+Autor: Virginia Woolf
+Tytuł: Do latarni morskiej
+Cena: 29,00
+Ilość: 4
+
+Autor: Khaled Hosseini
+Tytuł: Chłopiec z latawcem
+Cena: 36,00
+Ilość: 2
+
+Autor: Ray Bradbury
+Tytuł: Fahrenheit 451
+Cena: 33,00
+Ilość: 3
+
+Autor: Ken Follett
+Tytuł: Filary Ziemi
+Cena: 48,00
+Ilość: 2
+
+Autor: Anne Frank
+Tytuł: Dziennik Anne Frank
+Cena: 26,00
+Ilość: 4
+
+Autor: Milan Kundera
+Tytuł: Nieznośna lekkość bytu
+Cena: 34,00
+Ilość: 3
+
+Autor: Aldous Huxley
+Tytuł: Nowy wspaniały świat
+Cena: 37,00
+Ilość: 2
+
+Autor: Paulo Coelho
+Tytuł: Alchemik
+Cena: 23,00
+Ilość: 5
+
+Autor: Roald Dahl
+Tytuł: Charlie i fabryka czekolady
+Cena: 22,00
+Ilość: 6
+
+Autor: Sylvia Plath
+Tytuł: Szklany klosz
+Cena: 28,00
+Ilość: 4
+
+Autor: Leo Tolstoy
+Tytuł: Anna Karenina
+Cena: 46,00
+Ilość: 2
+
+Autor: Neil Gaiman
+Tytuł: American Gods
+Cena: 39,00
+Ilość: 3
+
+Autor: H.G. Wells
+Tytuł: Wojna światów
+Cena: 30,00
+Ilość: 4
+
+Autor: Orhan Pamuk
+Tytuł: Śnieg
+Cena: 35,00
+Ilość: 3
+
+Autor: Mark Twain
+Tytuł: Przygody Tomka Sawyera
+Cena: 24,00
+Ilość: 5
+
+Autor: Dan Brown
+Tytuł: Kod Leonarda da Vinci
+Cena: 41,00
+Ilość: 2
+
+Autor: Isabel Allende
+Tytuł: Dom duchów
+Cena: 32,00
+Ilość: 4
+
+Autor: Jules Verne
+Tytuł: Dwadzieścia tysięcy mil podmorskiej żeglugi
+Cena: 27,00
+Ilość: 3
