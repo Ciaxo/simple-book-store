@@ -1,81 +1,81 @@
-# Magazyn Książek - Aplikacja GTK do Zarządzania Książkami
+# Bookstore - GTK Application for Book Management
 
-## Opis Projektu
+## Project Description
 
-"Magazyn Książek" to aplikacja stworzona w języku C z użyciem biblioteki GTK, która pozwala na zarządzanie kolekcją książek. Umożliwia dodawanie, usuwanie, wyszukiwanie oraz wyświetlanie listy książek przechowywanych w magazynie. Dane o książkach są zapisywane i odczytywane z pliku tekstowego.
+"Bookstore" is an application written in C using the GTK library, which allows managing a book collection. It enables adding, removing, searching, and displaying a list of books stored in the repository. Book data is saved to and read from a text file.
 
-## Wymagania
+## Requirements
 
 - GTK+ 3.0
-- Kompilator C (np. `gcc`)
+- C Compiler (e.g., gcc)
 
-## Kompilacja i Uruchomienie
+## Compilation and Execution
 
-1. Zainstaluj GTK+ 3.0:
+1. Install GTK+ 3.0:
 
-    Na Ubuntu:
+    On Ubuntu:
     ```bash
     sudo apt-get update
     sudo apt-get install libgtk-3-dev
     ```
 
-2. Sklonuj repozytorium i przejdź do katalogu projektu:
+2. Clone the repository and navigate to the project directory:
     ```bash
     git clone https://github.com/twoj-uzytkownik/magazyn-ksiazek.git
     cd magazyn-ksiazek
     ```
 
-3. Skompiluj kod:
+3. Compile the code:
     ```bash
     gcc -o magazyn_ksiazek magazyn_ksiazek.c `pkg-config --cflags --libs gtk+-3.0`
     ```
 
-4. Uruchom aplikację:
+4. Run the application:
     ```bash
     ./magazyn_ksiazek
     ```
 
-## Funkcjonalności
+## Features
 
-### Dodawanie Książki
+### Adding a Book
 
-Aby dodać nową książkę do magazynu, kliknij przycisk "Dodaj książkę" i wprowadź dane (autor, tytuł, cena, ilość) w wyświetlonym oknie dialogowym. Po zatwierdzeniu książka zostanie dodana do magazynu i zapisana w pliku `magazyn.txt`.
+To add a new book to the repository, click the "Add Book" button and enter the details (author, title, price, quantity) in the displayed dialog box. After confirming, the book will be added to the repository and saved to the `magazyn.txt` file.
 
-### Usuwanie Książki
+### Removing a Book
 
-Aby usunąć książkę, kliknij przycisk "Usuń książkę", wprowadź tytuł książki w oknie dialogowym i zatwierdź. Książka zostanie usunięta z magazynu, a plik `magazyn.txt` zostanie zaktualizowany.
+To remove a book, click the "Remove Book" button, enter the book's title in the dialog box, and confirm. The book will be removed from the repository, and the `magazyn.txt` file will be updated.
 
-### Wyszukiwanie Książki
+### Searching for a Book
 
-Kliknij "Znajdź książkę", wprowadź tytuł lub jego fragment w oknie dialogowym i zatwierdź. Wyświetlone zostaną informacje o wszystkich książkach, które pasują do podanego tytułu.
+Click "Find Book", enter the full title or a fragment of it in the dialog box, and confirm. Information about all books matching the provided title will be displayed.
 
-### Wyświetlanie Listy Książek
+### Displaying the List of Books
 
-Aby wyświetlić listę wszystkich książek w magazynie, kliknij przycisk "Wyświetl listę". W nowym oknie zobaczysz pełną listę z informacjami o autorze, tytule, cenie i ilości każdej książki.
+To display the list of all books in the repository, click the "Show List" button. A new window will show the full list with information about the author, title, price, and quantity of each book.
 
-## Struktura Kodów
+## Code Structure
 
-### Struktury Danych
+### Data Structures
 
-- `Book`: Przechowuje informacje o książce (autor, tytuł, cena, ilość).
-- `Bookstore`: Przechowuje dynamiczną listę książek oraz ich aktualną liczbę.
-- `GuiData`: Przechowuje widgety GTK oraz wskaźnik na magazyn książek.
+- `Book`: Stores information about a book (author, title, price, quantity).
+- `Bookstore`: Stores a dynamic list of books and their current count.
+- `GuiData`: Stores GTK widgets and a pointer to the bookstore.
 
-### Funkcje
+### Functions
 
-- `add_book(Bookstore *store, const char *autor, const char *tytul, double cena, int ilosc)`: Dodaje nową książkę do magazynu.
-- `remove_book(Bookstore *store, int id)`: Usuwa książkę z magazynu na podstawie jej indeksu.
-- `find_book(Bookstore *store, const char *tytul)`: Wyszukuje książkę w magazynie na podstawie tytułu.
-- `find_books(Bookstore *store, const char *tytul, int *indeksy, int max_id)`: Wyszukuje książki pasujące do podanego tytułu i zwraca ich indeksy.
-- `save_to_file(Bookstore *store)`: Zapisuje dane magazynu do pliku `magazyn.txt`.
-- `load_from_file(Bookstore *store)`: Odczytuje dane z pliku `magazyn.txt` i ładuje je do magazynu.
-- `add_book_clicked(GtkButton *button, GuiData *data)`: Obsługuje zdarzenie kliknięcia przycisku "Dodaj książkę".
-- `remove_book_clicked(GtkButton *button, GuiData *data)`: Obsługuje zdarzenie kliknięcia przycisku "Usuń książkę".
-- `find_book_clicked(GtkButton *button, GuiData *data)`: Obsługuje zdarzenie kliknięcia przycisku "Znajdź książkę".
-- `show_book_list(GtkButton *button, GuiData *data)`: Wyświetla listę książek w nowym oknie.
-- `on_window_closed(GtkWidget *widget, gpointer data)`: Obsługuje zamknięcie głównego okna.
+- `add_book(Bookstore *store, const char *autor, const char *tytul, double cena, int ilosc)`: Adds a new book to the bookstore.
+- `remove_book(Bookstore *store, int id)`: Removes a book from the bookstore based on its index.
+- `find_book(Bookstore *store, const char *tytul)`: Searches for a book in the bookstore by title.
+- `find_books(Bookstore *store, const char *tytul, int *indeksy, int max_id)`: Searches for books matching the given title and returns their indices.
+- `save_to_file(Bookstore *store)`: Saves the bookstore data to the `magazyn.txt` file.
+- `load_from_file(Bookstore *store)`: Loads data from the `magazyn.txt` file into the bookstore.
+- `add_book_clicked(GtkButton *button, GuiData *data)`: Handles the "Add Book" button click event.
+- `remove_book_clicked(GtkButton *button, GuiData *data)`: Handles the "Remove Book" button click event.
+- `find_book_clicked(GtkButton *button, GuiData *data)`: Handles the "Find Book" button click event.
+- `show_book_list(GtkButton *button, GuiData *data)`: Displays the book list in a new window.
+- `on_window_closed(GtkWidget *widget, gpointer data)`: Handles the main window close event.
 
-## Cel Aplikacji
+## Application Purpose
 
-Aplikacja została stworzona jako przykład użycia języka C i biblioteki GTK+ do zarządzania magazynem książek.
+The application was created as an example of using the C language and the GTK+ library to manage a bookstore.
 
