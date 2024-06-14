@@ -75,12 +75,7 @@ Aby wyświetlić listę wszystkich książek w magazynie, kliknij przycisk "Wyś
 - `show_book_list(GtkButton *button, GuiData *data)`: Wyświetla listę książek w nowym oknie.
 - `on_window_closed(GtkWidget *widget, gpointer data)`: Obsługuje zamknięcie głównego okna.
 
-## Autorzy
+## Cel Aplikacji
 
-- Twoje Imię
-- Inni Współautorzy
-
-## Licencja
-
-Ten projekt jest licencjonowany na warunkach licencji MIT. Szczegóły w pliku [LICENSE](LICENSE).
+Aplikacja została stworzona jako przykład użycia języka C i biblioteki GTK+ do zarządzania magazynem książek.
 
